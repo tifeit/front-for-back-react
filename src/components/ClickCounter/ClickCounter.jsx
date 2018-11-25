@@ -39,7 +39,7 @@ export default class ClickCounter extends Component {
                 this.setState({btnDisabled: true})
             } else {
                 newSysMsg = 'You won this round, new round and new secret number was set' + this.state.wins
-                this.setState({round: this.state.round + 1, wins: this.state.wins + 1})
+                this.setState({round: this.state.round + 1, wins: this.state.wins + 1, secret: Math.floor((Math.random() * 100) + 1)})
             }
         }
 

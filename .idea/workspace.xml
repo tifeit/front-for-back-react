@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f474e957-c393-42d8-a619-57c00dba9e63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Btn/Btn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btn/Btn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Btn/Btn.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Btn/Btn.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ClickCounter/ClickCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ClickCounter/ClickCounter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,14 +85,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="10" />
-          <entry key="jsx" value="2406" />
+          <entry key="jsx" value="2449" />
           <entry key="styl" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="10" />
-          <entry key="JSX Harmony" value="2406" />
+          <entry key="JSX Harmony" value="2449" />
           <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
@@ -109,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ClickCounter/ClickCounter.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="317">
+              <caret line="41" column="132" selection-start-line="41" selection-start-column="132" selection-end-line="41" selection-end-column="132" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -386,12 +380,12 @@
       <updated>1542697789032</updated>
       <workItem from="1542697790900" duration="4190000" />
       <workItem from="1543164284305" duration="314000" />
-      <workItem from="1543166755452" duration="9938000" />
+      <workItem from="1543166755452" duration="10230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14442000" />
+    <option name="totallyTimeSpent" value="14734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1681" height="1027" extended-state="6" />
@@ -518,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ClickCounter/ClickCounter.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="317">
+          <caret line="41" column="132" selection-start-line="41" selection-start-column="132" selection-end-line="41" selection-end-column="132" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
