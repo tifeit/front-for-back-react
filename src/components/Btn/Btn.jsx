@@ -4,10 +4,10 @@ import PropTypes from 'prop-types'
 
 export default class Btn extends Component {
   render() {
-    const { className, secondary } = this.props
+    const { className, secondary, ...otherProps } = this.props
     return (
       <button
-        {...this.props}
+        {...otherProps}
         className={`${secondary ? styles.secondary : styles.primary} ${className} shadow`}
       >
         {this.props.children}
