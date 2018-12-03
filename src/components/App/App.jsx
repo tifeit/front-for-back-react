@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import Btn from 'components/Btn'
-import Logos from 'components/Logos'
-import ClickCounter from 'components/ClickCounter'
+import WeatherController from 'containers/WeatherContainer'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <ClickCounter />
+        <WeatherController />
       </div>
     )
   }
