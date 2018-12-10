@@ -1,13 +1,15 @@
 import React, {Component} from 'react'
 import axios from 'axios';
 import WeatherDummy from "../components/WeatherDummy/WeatherDummy";
+
+const defaultCity = 'Moscow'
 export default class WeatherContainer extends Component {
 
     state = {
         weatherData:
             {
                 "location":{
-                    "name":"Moscow", //How to push this change to component on DidMount?
+                    "name":defaultCity, //How to push this change to component on DidMount?
                 },
                 "current":{
                     "temp_c":null,
@@ -19,7 +21,7 @@ export default class WeatherContainer extends Component {
     };
 
     async componentDidMount() {
-        await this.makeAnAPICall('Moscow')
+        await this.makeAnAPICall(this.state.weatherData.location.name)
     }
 
     makeAnAPICall = (city) => {
